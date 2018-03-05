@@ -13,7 +13,7 @@ En este módulo, en el que contamos con 2 clases, haremos una **introducción a 
 
 En la primera clase, de 26 de marzo haremos una introducción general a la web, su producción y roles actuales involucrados, para luego revisar los lenguajes HTML, CSS y JS.
 
-En la segunda clase, de 4 de abril, revisaremos, línea por línea, la página HTML, el estilo CSS y la funciones JavaScript en la plantilla con la que tendrán que implementar un portafolio web.
+En la segunda clase, de 4 de abril, revisaremos, línea por línea, la página HTML, el estilo CSS y las funciones JavaScript en la plantilla con la que tendrán que implementar un portafolio web.
 
 **La nota del módulo se obtiene de la implementación de este portafolio web a partir de tal plantilla. Este portafolio puede desarrollarse entre dos estudiantes. También es válido desarrollarlo de manera individual. Las indicaciones necesarias para la implementación del portafolio se encuentran en su rúbrica de evaluación. Esta rúbrica es compartida, mediante Google Docs, a sus correos @uc.cl**
 
