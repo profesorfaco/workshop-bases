@@ -4,7 +4,7 @@
 
 http://profesor.faco.cl | profesor@faco.cl
 
-En este módulo, en el que contamos con 2 clases, haremos una **introducción a los lenguajes del Front-End**, esto les permitirá aportar a los procesos de producción
+En este módulo, en el que contamos con 2 clases, haremos una **introducción a los lenguajes del Front-End**, esto les permitirá aportar a los procesos de producción web
 
 - entendiendo aquello que se muestra al “ver código fuente”;
 - teniendo clara idea de las complejidades de la "programación"; 
