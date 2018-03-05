@@ -11,10 +11,10 @@
 
 	body{
 		font-family: Helvetica, Arial, sans-serif;
-		padding:5% 15%;
 		color:#444;
 		background-color:#ddd;
 		line-height: 1.42;
+		padding:5% 15%;
 	}
 
 	@media screen and (orientation: portrait) {
@@ -22,7 +22,7 @@
 	}
 
 	h1{
-	   color:#b00;
+	   	color:#b00;
 	}
 
 	code{
@@ -71,7 +71,7 @@ var saludo = "Hola mundo!";
 console.log(saludo + " Yo soy la consola de JavaScript");
 </script>
 
-<!--Lo que sigue también es JavaScript, pero en este caso estoy vinculando una  librería de JavaScript famocilla: jQuery--> 
+<!--Lo que sigue también es JavaScript, pero en este caso estoy vinculando una librería de JavaScript famocilla: jQuery--> 
 
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
@@ -118,6 +118,10 @@ var b = "cuatro mil quinientos millones";
 var c = "cinco dólares";
 var ossandon = "costaba " + a + " y " + b + " coma " + c;
 document.getElementById("cifra").innerHTML = ossandon;
+</script>
+	
+<script>
+document.getElementsByTagName("h1").innerHTML = saludo;
 </script>
 
 <!--y esto último es jQuery-->
