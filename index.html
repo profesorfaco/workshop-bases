@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Lo primero</title>
+<!--esto es un comentario, y te lo dejo aquí para indicar que lo que sigue es CSS-->
+<style>
+	
+	body{
+		font-family: Helvetica, Arial, sans-serif;
+		padding:5% 15%;
+		color:#444;
+		background-color:#ddd;
+		line-height: 1.42;
+	}
+	
+	@media screen and (orientation: portrait) {
+		body{padding:5%;}
+	}
+
+	h1{
+	   color:#b00;
+	}
+
+	code{
+		background:rgba(255,255,255,0.75);
+		padding:1px 2px;
+		margin:0 3px;
+	}
+
+	button{
+		font-size:1rem;
+		padding:0.5rem;
+		border-radius: 5px;
+		border-top:1px solid white;
+		border-left:1px solid white;
+		border-bottom:1px solid silver;
+		border-right:1px solid silver;
+		font-weight: 800;
+		margin-bottom:0.5rem;
+	}
+
+	button:hover{
+		background:#bbb;
+		transition: 0.5s ease all;
+		border-top:1px solid silver;
+		border-left:1px solid silver;
+		border-bottom:1px solid white;
+		border-right:1px solid white;	
+	}
+
+	#cifra{
+		font-family: 'Rock Salt', cursive;
+		line-height: 1.7;
+		color:#000;
+	}
+
+</style>
+<!--esto es un vínculo a un CSS que está en línea, y contiene unas fuentes especiales -->
+<link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+<!--Lo que sigue es JavaScript-->
+<script>
+var saludo = "Hola mundo!";
+console.log(saludo + " Yo soy la consola de JavaScript");
+</script>
+</head>
+<body>
+<h1></h1>
+<h2>HTML y CSS</h2>
+<p>Estás viendo una página de texto en gris oscuro sobre gris claro. El primer texto, que destaca por su tamaño, peso y color, es un encabezado de primer nivel, al que se le asignó un color rojo.</p>
+<p>El estilo fue asignado con CSS. Mientras que contenido y jerarquía se deben al HTML. Pero con estos dos lenguajes de descripción no podemos incluir interactividad dinámica en la página. Para poder hacerlo, es necesario utilizar un lenguaje de programación.</p>
+<h2>JavaScript</h2>
+<h3>1. Desplegar una alerta con un click</h3>
+<!--otro comentario para anunciar que este botón contiene javascript-->
+<button onclick="alert(saludo + ' Yo soy una alerta de tu navegador')">el botón</button>
+<p>Tomé el elemento <code>&lt;button&gt;…&lt;/button&gt;</code>, le agregué un atributo "OnClick", que en su variable contiene programación en JavaScript con la que se desplegará, en el click, una alerta con un mensaje que resulta de <a href="https://es.answers.yahoo.com/question/index?qid=20070130103245AAqyGWP" target="_blank">concatenar</a> una variable con un texto entre comillas.</p>
+<h3>2. Jugar con la consola de javascript</h3>
+<p>Utiliza el "shortcut" de teclado que corresponda:</p>
+<ul>
+<li>Si estás usando Chrome en PC, presiona Ctrl + Shift + J. Si estás usando el mismo navegador en Mac, presiona Cmd + Alt + J</li>
+<li>Si estás usando Firefox en PC, presiona Ctrl + Shift + K. Si estás usando el mismo navegador en Mac, presiona: Cmd + Alt + K</li>
+<li>Si estás usando Safari, presiona: Cmd + Alt + C</li>
+</ul>
+<p>Cuando aparezca la consola podrás leer un mensaje que resulta de <a href="https://es.answers.yahoo.com/question/index?qid=20070130103245AAqyGWP" target="_blank">concatenar</a> una variable ya utilizada con otro texto entre comillas.</p>
+<p>En la consola también puedes escribir algo. Intenta copiando, pegando, modificando y presionando Enter:</p>
+<pre><code>var sujeto = "Lorem";</code></pre>
+<pre><code>var adjetivo = "ipsum";</code></pre>
+<pre><code>console.log(sujeto +" es muy "+ adjetivo);</code></pre>
+<p>Lo que hiciste fue crear <strong>var</strong>iables, a las que asignaste "cadenas de caracteres". Pero no tendrías que ocupar comillas de utilizar números:</p>
+<pre><code>var primervalor = 20;</code></pre>
+<pre><code>var segundovalor = 30;</code></pre>
+<pre><code>console.log(primervalor + segundovalor);</code></pre>
+<p>Antes de que presiones Enter, una pregunta: ¿Qué crees que resultará, 50 o 2030?</p>
+<p>En caso que no le hayas acertado, podrías tener más suerte con lo que sigue: Piensa un número entre 1 y 10.</p>
+<pre><code>console.log(Math.floor((Math.random() * 10) + 1));</code></pre>
+<p>Tus opciones partían en 1, incrementándose tantas veces como lo permitiese la condición de menor o igual a 10:</p>
+<pre><code>for (var x=1; x<=10; x++){ console.log(x); }</code></pre>
+<h3>3. Manipular el DOM</h3>
+<p>¿Te acuerdas de cuánto costaba el programa de gobierno de Ossandón?</p>
+<p id="cifra"></p>
+<p>Si revisas el código fuente de la página, notarás que el párrafo de identidad "cifra" está vacío. El texto está como puesto allí con JavaScript. Lo mismo pasa más arriba, con el encabezado de primer nivel.</p>
+<p>Manipular el DOM es como "photoshopear" una imagen. Si capturaste 3 elementos, y con Photoshop le agregas un cuarto, en ningún caso estás modificando lo que fue, en principio, capturado.</p>
+<h3>4. Cerrar con jQuery</h3>
+<p id="fantasma">Pedrito pregunta: —Y si existiese código JavaScript listo, como esos alimentos para quienes no somos cocineros o no tenemos tiempo para cocinar. Pienso en algo que me pida agua hervida, esperar y revolver–. Profesor responde: –Eso ya existe–.</p>
+<button class="desaparece">Que desaparezca el párrafo de arriba</button>
+<button class="aparece">Que vuelva a aparecer</button>
+<!--acá te dejo la cifra de ossandón-->
+<script>
+	var a = "cuatro mil trescientos cuarenta";
+	var b = "cuatro mil quinientos millones";
+	var c = "cinco dólares";
+	var ossandon = "costaba " + a + " y " + b + " coma " + c;
+	//Para las siguientes líneas y posibles variantes: http://xahlee.info/js/js_get_elements.html
+	document.getElementById("cifra").innerHTML = ossandon;
+	document.getElementsByTagName("h1")[0].innerHTML = saludo;
+</script>
+<!--Lo que sigue también es JavaScript, pero en este caso estoy vinculando una  librería de JavaScript famocilla: jQuery--> 
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<!--y lo último se aprovecha del jQuery que acabo de vincular-->
+<script>
+	//podrán notar una estructura que se repite
+	$(document).ready(function(){
+	    $(".desaparece").click(function(){
+	        $("#fantasma").fadeOut(1000);
+	    });
+	    $(".aparece").click(function(){
+	        $("#fantasma").fadeIn(1000);
+	    });
+	});
+</script>
+</body>
+</html>
