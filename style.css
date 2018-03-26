@@ -1,0 +1,61 @@
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	padding:5% 15%;
+	color:#444;
+	background-color:#ddd;
+	line-height: 1.42;
+}
+
+a{color:rgba(200,0,0,.6); text-decoration: none;}
+
+a:hover{color:rgba(200,0,0,1);}
+
+@media screen and (orientation: portrait) {
+	body{padding:5%;}
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Passion One', cursive;
+	font-weight: 700;
+	letter-spacing:0.05em;	
+}
+
+h1{
+	color:#b00;
+}
+
+div.hidden{
+	display:none;
+}
+
+span, abbr{
+	font-weight: 800;
+}
+
+code{
+	background:rgba(255,255,255,0.75);
+	padding:1px 2px;
+	margin:0 3px;
+}
+
+button{
+	font-size:1rem;
+	padding:0.5rem;
+	border-radius: 5px;
+	border-top:1px solid white;
+	border-left:1px solid white;
+	border-bottom:1px solid silver;
+	border-right:1px solid silver;
+	font-weight: 800;
+	margin-bottom:0.5rem;
+}
+
+button:hover{
+	background:#bbb;
+	transition: 0.5s ease all;
+	border-top:1px solid silver;
+	border-left:1px solid silver;
+	border-bottom:1px solid white;
+	border-right:1px solid white;	
+}
+
