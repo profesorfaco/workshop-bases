@@ -27,4 +27,4 @@ Tendrán hasta las 23:59 hrs. del domingo 8 de abril para obtener esa bonificaci
 
 Después, etre las 00.00 hrs. del lunes 9 y las 23:59 hrs. del domingo 15 de abril no obtendrán bonificación, y, más tarde, entre las 00.00 hrs. del lunes 16 y las 23.59 hrs. del domingo 22 de abril serán "castigados" con descuento de 0,5.
 
-**Quien no entregue dentro de los plazos recién indicados, obtiene automáticamente nota mínima: 1.0**
+**Quien no entregue dentro de los plazos recién indicados,  obtiene automáticamente nota mínima: 1.0**
