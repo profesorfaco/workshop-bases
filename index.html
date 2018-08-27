@@ -26,23 +26,16 @@
 			
 			<h2>JavaScript</h2>
 			
-			<p>HTML y CSS son lenguajes descriptivos. No son lenguajes de programación. Describen, respectivamente, un cuerpo por vestir y un "dress code". Pero se trata de un cuerpo inerte. Para poder darle vida a este cuerpo es necesario utilizar un lenguaje de programación.</p>
+			<p>HTML y CSS son lenguajes descriptivos. No son lenguajes de programación. Describen, respectivamente, algo por vestir y un "dress code". Pero se trata de algo inerte. Para poder darle vida a este cuerpo es necesario utilizar un lenguaje de programación.</p>
 			
-			<h4>1. Desplegar una alerta con un click</h4>
-			<!--otro comentario para anunciar que este botón contiene javascript-->
-			
-			<button onclick="miAlerta()">el botón</button>
-			
-			<p>Tomé el elemento <code>&lt;button&gt;…&lt;/button&gt;</code>, le agregué un atributo "OnClick", que en su variable contiene una función ya definida.</p>
-			
-			<h4>2. Jugar con la consola de javascript</h4>
+			<h4>1. Consola de JavaScript</h4>
 			
 			<p>Utiliza el "shortcut" de teclado que corresponda:</p>
 			
 			<ul>
 			<li>Si estás usando <strong>Chrome</strong> en PC, presiona Ctrl + Shift + J. Si estás usando el mismo navegador en Mac, presiona Cmd + Alt + J</li>
 			<li>Si estás usando <strong>Firefox</strong> en PC, presiona Ctrl + Shift + K. Si estás usando el mismo navegador en Mac, presiona: Cmd + Alt + K</li>
-			<li>Si estás usando <strong>Safari</strong>, presiona: Cmd + Alt + C (aunque no debería estar usando este navegador, porque se solicitó tener uno de los dos anteriores instalados para este clase)</li>
+			<li>Si estás usando <strong>Safari</strong>, presiona: Cmd + Alt + C (aunque no es recomendable seguir trabajando con este navegador web, descarga uno de los anteriores)</li>
 			</ul>
 			
 			<p>Cuando aparezca la consola podrás leer un mensaje (que yo dejé programado; no es que aparezca por defecto).</p>
@@ -61,15 +54,17 @@
 			
 			<pre><code>Math.floor((Math.random() * 10) + 1);</code></pre>
 			
-			<h4>3. Manipular el DOM</h4>
+			<p>La función <code>Math.random()</code> me entrega un número pseudo-aleatorio entre el 0 (incluido) y el 1 (excluido), y la función <code>Math.round()</code> acerca el número al entero más cercano. Hablar de funciones es hablar de programación.</p>
 			
-			<p>Si revisas el código fuente de la página, notarás que el primer párrafo, justo bajo el título de <strong>Hola mundo!</strong>, hay espacios vacíos. El texto está "como puesto" allí con JavaScript.</p>
+			<h4>2. Manipular el DOM</h4>
+			
+			<p>Si revisas el código fuente de la página, notarás que hay algunos espacios vacíos. Fíjate en la línea 14, donde hay un <code>&lt;h1&gt;&lt;/h1&gt;</code>. Fíjate también en la línea 15, donde podrás encontrar un <code>&lt;span id="timestamp"&gt;&lt;/span&gt;</code> y un <code>&lt;span id="timestring"&gt;&lt;/span&gt;</code>. Pero estos espacios se rellenan con texto mediante JavaScript y la manipulación del <a href="https://es.wikipedia.org/wiki/Document_Object_Model" title="Wikipedia">Document Object Model (DOM)</a>.</p>
 			
 			<p>Manipular el DOM es como "photoshopear" una imagen. Si capturaste 3 elementos, y con Photoshop le agregas un cuarto, en ningún caso estás modificando lo que fue, en principio, capturado… pero sí se ve algo más "como puesto" allí.</p>
 			
-			<h4>4. Usar bibliotecas</h4>
+			<h4>3. Usar bibliotecas</h4>
 
-			<p>La página tiene un efecto al cargarse: Un fadeIn de 1000 milisegundos que se logra con el uso de jQuery (una de las bibliotecas de JavaScript más utilizadas). Y la página cierra con hay una "visualización", que se logra con el uso de p5.js, una biblioteca de JavaScript creada con el objetivo original de Processing (hacer la programación accesible a artistas, diseñadores, educadores y principiantes)</p>
+			<p>La página tiene un efecto al cargarse: Un fadeIn de 1000 milisegundos que se logra con el uso de <a href="https://jquery.com/">jQuery</a> (una de las bibliotecas de JavaScript más utilizadas). Y la página cierra con hay una "visualización", que se logra con el uso de <a href="https://p5js.org/es/">p5.js</a>, una biblioteca de JavaScript creada con el objetivo original de Processing (hacer la programación accesible a artistas, diseñadores, educadores y principiantes)</p>
 
 		</div>
 		<div id="pifaiv"></div>
@@ -78,15 +73,12 @@
 		<script>
 			var nombre = "Nombre"
 			var saludo = "Hola "+nombre+"!";
-			console.log(saludo + " Yo soy la consola de JavaScript de tu Navegador");
-			function miAlerta() {
-			    alert(saludo + " Yo soy una alerta en tu Navegador");
-			}
 			var tiempo = Date.now();
-			document.getElementById("timestamp").innerHTML = Math.round(tiempo/1000);
 			var fecha = new Date();
+			document.getElementById("timestamp").innerHTML = Math.round(tiempo/1000);
 			document.getElementById("timestring").innerHTML = fecha;
 			document.getElementsByTagName('h1')[0].innerHTML = saludo;
+			console.log(saludo + " Yo soy la consola de JavaScript de tu Navegador");
 		</script>
 		<!--Lo que sigue es algo de jQuery, una biblioteca de JavaScript-->
 		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
@@ -98,26 +90,31 @@
 		<!--Lo que sigue es algo de p5.js, otra biblioteca de JavaScript-->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
 		<script>
-			var birth = {day:3, month:6, age:38};
+			var birth = {
+				day:3, 
+				month:6, 
+				age:38
+			};
+			
 			function setup() {
 				var canvas = createCanvas(windowWidth, 300);
 				canvas.parent('pifaiv');
-				background(240);
 				smooth();
 				noLoop();
 				noStroke();
 			}
+			
 			function draw() {
+				background(240);
 				for (var d = 0; d < 365; d++){
 					if (d <= 238) {
-						fill(155,155);	
+						fill(155,155);
 					} else {
-						fill(205,155);	
+						fill(55,155);
 					}
 				 ellipse((windowWidth/365)*d,height/2,2,2);
 				}
 				var x = Math.round(birth.day+((birth.month-1)*30.41));
-				console.log(x);
 				fill(0);
 				ellipse((windowWidth/365)*x,height/2,2,2);
 				textAlign(CENTER);
@@ -126,9 +123,10 @@
 				textSize(12);				
 				text("En 2018 cumplo " + birth.age + " años :-/", windowWidth/2,50);
 			}
-		function windowResized() {
-  			resizeCanvas(windowWidth, 300);
-		}
+			
+			function windowResized() {
+  				resizeCanvas(windowWidth, 300);
+			}
 		</script>
 	</body>
 </html>
