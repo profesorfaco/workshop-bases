@@ -5,7 +5,7 @@ Necesitarás uno de los siguientes editores de código fuente:
 
 - [Atom.io](https://atom.io/) - Editor de texto multiplataforma (Windows, Linux, and Mac), libre y open-source, desarrollado por los creadores de GitHub. 
 
-- [Sublime Text](https://www.sublimetext.com/) - Editor de texto privativo, cuya versión de evaluación es plenamente funcional y no tiene fecha de caducidad. 
+- [Sublime Text](https://www.sublimetext.com/) - Editor de texto privativo, con una versión de evaluación sin fecha de caducidad.
 
 - [Brakets](http://brackets.io/) - Editor de texto open-source para desarrolladores FrontEnd que trabajen con HTML, CSS y JavaScript.
 
