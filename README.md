@@ -1,7 +1,7 @@
 # Bases
 ### FrontEnd
 
-Necesitarán un editor de código fuente. Se recomienda uno de los siguiente: 
+Necesitarás uno de los siguientes editores de código fuente: 
 
 - [Atom.io](https://atom.io/) - Editor de texto multiplataforma (Windows, Linux, and Mac), libre y open-source, desarrollado por los creadores de GitHub. 
 
@@ -13,4 +13,4 @@ También necesitarán una cuenta en GitHub.
 
 Una vez tengas lo necesario, pasa por acá: https://profesorfaco.github.io/bases/
 
-También puedes consultar el Wiki: https://github.com/profesorfaco/bases/wiki
+En caso de dudas, consulta el Wiki de este repositorio: https://github.com/profesorfaco/bases/wiki
