@@ -22,20 +22,33 @@
   $('form').submit(function(){
      var datos = $(this).serializeArray();
      console.log(datos);
-     $("#denominacion").html(datos[0]["value"] + " " + datos[1]["value"]);
+     $("#denominacion").html("Hola " + datos[0]["value"] + " " + datos[1]["value"]);
      var edad = datos[2]["value"];
-     $("#envejecimiento").html(edad);
-     if(edad < 25){
+     if(edad < 30){
       //Indigo
       $('body').css("background-color","#d1d9ff");
       $('#footer').css("background-color","#9fa8da");
       $('form input[type="submit"]').css("background-color","#6f79a8");
+      var anualidad;
+      if (edad == 29){ anualidad = " año "} else {anualidad = " años "}
+      frase = " ¿Sabías que eres " + (30-edad) + anualidad + "menor que la <a href=\"https://www.google.com/doodles/30th-anniversary-of-the-world-wide-web\" target=\"_blank\">Web</a>?";
+     } else if(edad == 30){
+      //Pink
+      $('body').css("background-color","#ff94c2");
+      $('#footer').css("background-color","#f06292");
+      $('form input[type="submit"]').css("background-color","#ba2d65");
+       frase = " ¿Sabías que tienes la misma edad que la <a href=\"https://www.google.com/doodles/30th-anniversary-of-the-world-wide-web\" target=\"_blank\">Web</a>?";     
      } else {
       //Brown
       $('body').css("background-color","#efdcd5");            
       $('#footer').css("background-color","#bcaaa4");
       $('form input[type="submit"]').css("background-color","#8c7b75");      
+      var anualidad;
+      if (edad == 31){ anualidad = " año "} else {anualidad = " años "}
+      frase = " ¿Sabías que eres " + (edad-30) + anualidad + "mayor que la <a href=\"https://www.google.com/doodles/30th-anniversary-of-the-world-wide-web\" target=\"_blank\">Web</a>?";
      }
+     var frase;
+     $("#envejecimiento").html(frase);     
      return false;
    });
  });
