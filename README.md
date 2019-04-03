@@ -31,4 +31,4 @@ En caso de dudas, consulta el Wiki de este repositorio: https://github.com/profe
 
 Entregando dentro del plazo (hasta el domingo 28 de abril), puedes sumar un segundo beneficio: El que obtienes con un mínimo de 80% de respuestas correctas en los Quiz que debes responder en las clases de los días lunes 1 y 8 de abril.
 
-Tu nota final se calculará con rúbrica que explica la modificación que corresponde hacer a una plantilla con la que se pondrá a prueba el acercamiento práctico a los procesos de producción web que hacemos por la vía del FrontEnd.
+Tu nota final se calculará con una rúbrica que detalla la modificación que corresponde hacer a una plantilla con la que se pondrá a prueba el acercamiento práctico a los procesos de producción web que hacemos por la vía del FrontEnd.
