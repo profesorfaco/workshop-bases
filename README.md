@@ -15,9 +15,9 @@ Una vez tengas lo necesario, pasa por acá: https://profesorfaco.github.io/bases
 
 En caso de dudas, consulta el Wiki de este repositorio: https://github.com/profesorfaco/bases/wiki
 
-### NOTAS
+### EVALUACIÓN PARA PROCESOS DE PRODUCCIÓN
 
-#### Procesos de producción -> Módulo Web -> Entregas de trabajo en duplas: 
+#### Primer semestre, 2019 → Módulo Web → Entregas de trabajo en duplas (o individual): 
 
 - Sumas 0,5 a tu nota si entregas **hasta las 23.59 hrs. del domingo 14 de abril**
 
@@ -26,3 +26,7 @@ En caso de dudas, consulta el Wiki de este repositorio: https://github.com/profe
 - Pierdes 0,5 si entregas **entre las 00.00 hrs. del martes 23 de abril y las 23.59 hrs. del domingo 28 de abril**
 
 - Entregando después de las 00.00 hrs. del lunes 29 de abril obtienes nota mínima: 1.0
+
+Entregando dentro del plazo (hasta el domingo 28 de abril), puedes sumar un segundo beneficio: El que obtienes con un mínimo de 80% de respuestas correctas en los Quiz que debes responder en las clases de los días lunes 1 y 8 de abril.
+
+Tu nota final se calculará con rúbrica que explica la modificación que corresponde hacer a una plantilla con la que se pondrá a prueba el acercamiento práctico a los procesos de producción web que hacemos por la vía del FrontEnd.
