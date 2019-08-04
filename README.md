@@ -2,7 +2,7 @@
 
 ### Consideraciones previas
 
-**1. Hay una serie de herramientas y protocolo que pueden facilitar el trabajo en equipo**. Es útil conocerlo porque trabajar en equipo no es lo mismo que trabajar en grupo, así como la multiculturalidad no es lo mismo que la interculturalidad. 
+**1. Hay algunos tips que podrían facilitar el trabajo en equipo**. Es útil conocerlo porque trabajar en equipo no es lo mismo que trabajar en grupo, así como la multiculturalidad no es lo mismo que la interculturalidad. 
 
 **2. La W3C Web Accessibility Initiative (WAI)** desarrolla estándares y materiales de apoyo que ayudan a comprender e implementar la accesibilidad. Para que comiences a conocer algo al respecto, se solicita:
 
