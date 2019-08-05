@@ -28,7 +28,7 @@ Comenzaremos la clase del lunes 12 de agosto respondiendo a un formulario breve,
 
 2. una cuenta en GitHub, e
 
-3. imágenes de tus trabajos.
+3. imágenes (con descripción) de tus trabajos.
 
 Una vez tengas lo necesario, pasa por acá: https://profesorfaco.github.io/bases/
 
