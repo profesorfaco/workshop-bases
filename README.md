@@ -2,7 +2,7 @@
 
 ### Consideraciones previas
 
-**1. Hay algunos tips que podrían facilitar el trabajo en equipo**. Es útil conocerlo porque trabajar en equipo no es lo mismo que trabajar en grupo, así como la multiculturalidad no es lo mismo que la interculturalidad. 
+**1. Hay algunos tips que podrían facilitar el trabajo en equipo**. Es útil conocerlo porque los procesos de producción en equipo son distintos de los trabajar en grupo, así como la multiculturalidad no es lo mismo que la interculturalidad. 
 
 **2. La W3C Web Accessibility Initiative (WAI)** desarrolla estándares y materiales de apoyo que ayudan a comprender e implementar la accesibilidad. Para que comiences a conocer algo al respecto, se solicita:
 
@@ -28,8 +28,8 @@ Comenzaremos la clase del lunes 12 de agosto respondiendo a un formulario breve,
 
 2. una cuenta en GitHub, e
 
-3. imágenes (con descripción) de tus trabajos.
+3. imágenes (con descripción) de sus propios trabajos para armar un portafolio digital.
 
-Una vez tengas lo necesario, pasa por acá: https://profesorfaco.github.io/bases/
+Una vez tengas lo necesario, revista esta página: https://profesorfaco.github.io/bases/
 
-En caso de dudas, consulta el Wiki de este repositorio: https://github.com/profesorfaco/bases/wiki
+Para complementar lo que está en esa página, consulta el Wiki de este repositorio: https://github.com/profesorfaco/bases/wiki
