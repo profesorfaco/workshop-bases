@@ -16,7 +16,9 @@ Comenzaremos la clase del lunes 12 de agosto respondiendo a un formulario breve,
 
 ### FrontEnd
 
-Necesitarás uno de los siguientes editores de código fuente: 
+**Para la clase del lunes 12 de agosto, necesitarás:** 
+
+1. uno de los siguientes editores de código fuente: 
 
 - [Atom.io](https://atom.io/) - Editor de texto multiplataforma (Windows, Linux, and Mac), libre y open-source, desarrollado por los creadores de GitHub. 
 
@@ -24,14 +26,10 @@ Necesitarás uno de los siguientes editores de código fuente:
 
 - [Brakets](http://brackets.io/) - Editor de texto open-source para desarrolladores FrontEnd que trabajen con HTML, CSS y JavaScript.
 
-También necesitarán una cuenta en GitHub.
+2. una cuenta en GitHub, e
+
+3. imágenes de tus trabajos.
 
 Una vez tengas lo necesario, pasa por acá: https://profesorfaco.github.io/bases/
 
 En caso de dudas, consulta el Wiki de este repositorio: https://github.com/profesorfaco/bases/wiki
-
-- - - - - - - 
-
-### Evaluación para Procesos de Producción → Diseño UC
-
-Primer semestre, 2019 → Módulo Web → https://github.com/profesorfaco/plantilla
