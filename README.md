@@ -2,7 +2,7 @@
 
 ### Consideraciones previas
 
-**1. Hay muchos [tips que podrían facilitar el trabajo en equipo](https://drive.google.com/drive/folders/10ZayTCG6S-jTASmOt0nHomvCI0dr8-8z?usp=sharing)**. Es útil conocerlos cuando los procesos de producción en equipo pueden diferenciarse de los procesos creativos en grupo, como la multiculturalidad (donde se permite la coexistencia de las diferencias) puede diferenciarse de la interculturalidad (donde las relaciones entre distintos son horizontales y bidireccionales).  
+**1. Hay muchos [tips que podrían facilitar el trabajo en equipo](https://drive.google.com/drive/folders/10ZayTCG6S-jTASmOt0nHomvCI0dr8-8z?usp=sharing)**. Es útil conocerlos cuando los procesos de producción en equipo pueden diferenciarse de los procesos creativos en grupo, como la interculturalidad (donde las relaciones entre distintos son horizontales y bidireccionales) puede diferenciarse de la multiculturalidad (donde se tolera la coexistencia de las diferencias). 
 
 **2. La W3C Web Accessibility Initiative (WAI)** desarrolla estándares y materiales de apoyo que ayudan a comprender e implementar la accesibilidad. Para que comiences a conocer algo al respecto, se solicita:
 
