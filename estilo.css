@@ -41,6 +41,7 @@ h1,h2{margin:0; padding:0;}
     left: 0;
     right: 0;
     margin-bottom: 0;
+    font-size:0.9rem;
 }
 
 form{ padding:1.5rem 5.5rem; overflow: hidden}
