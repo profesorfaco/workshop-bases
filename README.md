@@ -30,6 +30,6 @@ Comenzaremos la clase del lunes 12 de agosto respondiendo a un formulario breve,
 
 3. imágenes (con descripción) de sus propios trabajos para armar un portafolio digital.
 
-Una vez tengas lo necesario, revista esta página: https://profesorfaco.github.io/bases/
+Una vez tengas lo necesario, revisa esta página: https://profesorfaco.github.io/bases/
 
 Para complementar lo que está en esa página, consulta el Wiki de este repositorio: https://github.com/profesorfaco/bases/wiki
