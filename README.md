@@ -33,3 +33,5 @@ Comenzaremos la clase del lunes 12 de agosto respondiendo a un formulario breve,
 Una vez tengas lo necesario, revisa esta página: https://profesorfaco.github.io/bases/
 
 Para complementar lo que está en esa página, consulta el Wiki de este repositorio: https://github.com/profesorfaco/bases/wiki
+
+#### Y ahora comencemos con el trabajo del módulo: https://github.com/profesorfaco/plantilla
